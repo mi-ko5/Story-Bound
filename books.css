@@ -1,0 +1,110 @@
+body{
+    background: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 1200px;
+    display: flex;
+}
+
+.sidebar{
+    width: 200px;
+    background: white;
+    padding: 15px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sidebar h3{
+    margin-bottom: 10px;
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sidebar label{
+    display: block;
+    margin: 5PX 0;
+    color: #333;
+    font-size: 18px;
+    font-weight: 600;
+}
+.back {
+    margin-bottom: 20px;
+}
+
+.back a {
+    text-decoration: none;
+    background: orange;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.book {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.book a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.book img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.book h3 {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.book button {
+    background: none;
+    color: orange;
+    border: 2px solid orange;
+    padding: 5px 15px ;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: auto;
+}
+.book button:hover {
+    background: orange; 
+    color: white; 
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

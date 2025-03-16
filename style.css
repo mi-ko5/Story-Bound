@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    font-family: Abhaya Libre ExtraBold;
+    background-color: #E16B01;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.inside{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.form{
+    padding: 40px;
+    width: 50%;  
+
+}
+.back{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-bottom: 10px;   
+}
+h1{
+    margin: 0;
+    font-size: 24px;  
+}
+.underneath{
+    color: #db893c;
+    font-size: 14px;
+    margin-bottom: 20px;  
+}
+
+form{
+    display: flex;
+
+    flex-direction: column; 
+}
+label{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+input{
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    background-color: #f4e1d2;  
+}
+button{
+    padding: 12px;
+    background-color: #E16B01;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: #b35906;
+}
+.login{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.login a {
+    color: #db893c;
+    text-decoration: none;
+}
+.image {
+    width: 100%;
+    display: flex;
+    background-color: #f4e1d2;
+}
+
+.image img {
+    width: 100%;
+}
+
